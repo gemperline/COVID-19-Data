@@ -1,0 +1,44 @@
+.dataCard {
+  flex: 1;
+}
+
+.dataCard:not(:last-child) {
+  margin-right: 10px;
+}
+
+.dataCard--selected {
+  border-top: 10px solid rgb(60, 209, 85);
+}
+
+.dataCard--red {
+  border-color: #ff0054;
+}
+
+.dataCard--blk {
+  border-color: #000000;
+}
+
+.dataCard__cases--green {
+  color: rgb(60, 209, 85) !important;
+}
+
+.dataCard__deaths {
+  color: #000000;
+  font-weight: 600;
+  font-size: 1.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.dataCard__cases {
+  color: #ff0054;
+  font-weight: 600;
+  font-size: 1.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.dataCard__total {
+  color: #6c757d;
+  font-weight: 700 !important;
+  font-size: 0.8rem !important;
+  margin-top: 15px !important;
+}
