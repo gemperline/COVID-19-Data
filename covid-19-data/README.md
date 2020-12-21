@@ -1,3 +1,6 @@
+#Video Presentation on YouTube: https://youtu.be/ZOJb0tLEygQ
+(File was too big)
+
 # COVID-19 Data
 This application serves as a simple React web app to display current COVID-19 data. It features clickable cards that 
 will toggle the map to show the related data. Upon selecting a country from the dropdown menu, the map will zoom to the general area
